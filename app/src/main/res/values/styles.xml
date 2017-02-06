@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="calButtons">
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:background">@drawable/operator_buttons</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:shape">oval</item>
+<!-- Here you have definec a style stating propertires of a button and in background(button.xml in drawable) attribute you have defind another properties
+        such as shape,stroke,gradient,color etc..which cant be defined here as it doesnt show those properties .-->
+<!-- YOu can even overwrite this style by keeping 'calButtons in parent attribute LIKE THIS
+        <style name="abc" parent ="calButtons">
+
+        ...Properties goes here....
+
+        </style>
+
+'-->
+    </style>
+
+    <style name="num_button">
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:elevation">6dp</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:shape">oval</item>
+
+    </style>
+
+
+
+</resources>
